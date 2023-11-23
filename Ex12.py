@@ -1,0 +1,6 @@
+print(5*'-','Calcular Desconto',5*'-')
+preco = float(input('Qual é o preço do produto? R$'))
+desc = float(input('De quanto é a % do desconto: '))
+aplic = preco - ((desc / 100) * preco)
+print(f'O produto de R${preco:.2f}, com desconto de {desc:.0f}% vai passar a custar R${aplic:.2f}')
+print(11*'-','<Fim>',11*'-')
